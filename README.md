@@ -20,8 +20,6 @@ Red configurada en modo **Bridged** para permitir comunicación entre máquinas 
 
 ## 🛠️ Instalación
 
-Ver documentación detallada en [`01-setup/`](./01-setup/).
-
 Resumen de componentes desplegados:
 1. Ubuntu Server 24.04 con IP estática
 2. Wazuh instalado vía script oficial (`wazuh-install.sh -a`)
@@ -38,7 +36,7 @@ Documentar el troubleshooting es tan valioso como el resultado final — así se
 - **Sysmon no capturaba tráfico SMB (puertos 135/139/445):** limitación conocida de Sysmon con el stack de red en modo kernel de Windows — documentado como hallazgo técnico.
 - **Conflicto de IP duplicada** en la red del lab, resuelto reasignando IPs estáticas fuera del rango DHCP del router.
 
-Ver detalle completo en [`lessons-learned.md`](./lessons-learned.md).
+
 
 ## 🚨 Detecciones documentadas
 
@@ -48,7 +46,7 @@ Ver detalle completo en [`lessons-learned.md`](./lessons-learned.md).
 - **Objetivo:** Endpoint Windows 10, puerto 3389
 - **Resultado:** 11 intentos fallidos de autenticación + 1 exitoso, detectados en tiempo real
 - **Categorización Wazuh:** `authentication_failed`, `windows_security`
-- **Evidencia:** ver [`02-detections/01-rdp-bruteforce.md`](./02-detections/01-rdp-bruteforce.md)
+- **Evidencia:** ver [`01-rdp-bruteforce.md`](./01-rdp-bruteforce.md)
 
 ![Detección de fuerza bruta RDP](./screenshots/rdp-bruteforce-detection.png)
 
