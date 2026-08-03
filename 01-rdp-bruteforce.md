@@ -75,7 +75,7 @@ El ataque generó múltiples alertas visibles en el dashboard, en la sección **
 - `Logon Failure - Unknown user or bad password` (nivel 5)
 - `Successful Remote Logon Detected` (nivel 6)
 - `Special privileges assigned to new logon` (nivel 3)
-![Dashboard mostrando la detección del ataque RDP](../screenshots/rdp-bruteforce-detection.png)
+![Dashboard mostrando la detección del ataque RDP](screenshots/wazuhdashboard.png)
  
 ## Análisis
  
