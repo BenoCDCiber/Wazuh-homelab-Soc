@@ -33,10 +33,10 @@ Podemos obtener 3 respuestas:
 
 En un escenario real el atacante puede usar esta tecnica para poder escanear los puertos buscando una conexion y después realizar los ataques de fuerza bruta.
 
+Resultado: puerto `3389/tcp open`
 
+[Imagen del ataque ejecutado](screenshot/rdp3389.png)
 
-
-Resultado: puerto `3389/tcp open`.
  
 ## Ejecución del ataque
  
