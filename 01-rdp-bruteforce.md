@@ -35,7 +35,7 @@ En un escenario real el atacante puede usar esta tecnica para poder escanear los
 
 Resultado: puerto `3389/tcp open`
 
-[Imagen del ataque ejecutado](screenshot/rdp3389.png)
+![Imagen del ataque ejecutado](screenshot/rdp3389.png)
 
  
 ## Ejecución del ataque
